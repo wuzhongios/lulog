@@ -16,6 +16,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+        LULog.debug("hello")
+        
+        LULog.debug("hello 234", args: 1 , 2 , "aaa")
+        
+        LULog.debug("hello {} 234 {}", args: 1 , 2 , "aaa")
+        
+        LULog.error("hello {} 234 {} , dddd {}", args: 1 , true , "aaa")
+        
+        
         return true
     }
 

@@ -13,6 +13,8 @@
 		0889BFCC1A397927000F2D08 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0889BFCB1A397927000F2D08 /* Images.xcassets */; };
 		0889BFCF1A397927000F2D08 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0889BFCD1A397927000F2D08 /* LaunchScreen.xib */; };
 		0889BFDB1A397928000F2D08 /* lulogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0889BFDA1A397928000F2D08 /* lulogTests.swift */; };
+		0889BFE71A397989000F2D08 /* ColorLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0889BFE51A397989000F2D08 /* ColorLog.swift */; };
+		0889BFE81A397989000F2D08 /* LULog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0889BFE61A397989000F2D08 /* LULog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		0889BFD41A397928000F2D08 /* lulogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lulogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0889BFD91A397928000F2D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0889BFDA1A397928000F2D08 /* lulogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lulogTests.swift; sourceTree = "<group>"; };
+		0889BFE51A397989000F2D08 /* ColorLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorLog.swift; sourceTree = "<group>"; };
+		0889BFE61A397989000F2D08 /* LULog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LULog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		0889BFC11A397927000F2D08 /* lulog */ = {
 			isa = PBXGroup;
 			children = (
+				0889BFE41A397989000F2D08 /* src */,
 				0889BFC41A397927000F2D08 /* AppDelegate.swift */,
 				0889BFC61A397927000F2D08 /* ViewController.swift */,
 				0889BFC81A397927000F2D08 /* Main.storyboard */,
@@ -110,6 +115,15 @@
 				0889BFD91A397928000F2D08 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0889BFE41A397989000F2D08 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0889BFE51A397989000F2D08 /* ColorLog.swift */,
+				0889BFE61A397989000F2D08 /* LULog.swift */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +227,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0889BFC71A397927000F2D08 /* ViewController.swift in Sources */,
+				0889BFE81A397989000F2D08 /* LULog.swift in Sources */,
+				0889BFE71A397989000F2D08 /* ColorLog.swift in Sources */,
 				0889BFC51A397927000F2D08 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
