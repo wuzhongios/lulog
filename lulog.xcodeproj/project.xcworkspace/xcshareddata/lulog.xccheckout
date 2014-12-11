@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DBBA7FD0-7BCC-499D-8878-6A41A60556FA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>lulog</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4957675CA65670ADA13E649EFA448471558C73AD</key>
+		<string>github.com:wuzhongios/lulog.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>lulog.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4957675CA65670ADA13E649EFA448471558C73AD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:wuzhongios/lulog.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4957675CA65670ADA13E649EFA448471558C73AD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4957675CA65670ADA13E649EFA448471558C73AD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>lulog</string>
+		</dict>
+	</array>
+</dict>
+</plist>
